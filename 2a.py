@@ -1,0 +1,9 @@
+quantity = int(input('จำนวนปืน'))
+cost_price = int(input())
+sell_price = int(input())
+team_members = int(input())
+total_all = quantity * cost_price
+total_come = quantity * sell_price
+total_pro = total_come - total_all
+total_boss = total_pro * 0.2
+member_money = (total_pro - total_boss ) / team_members
